@@ -25,7 +25,7 @@ You need to launch Chrome in remote debugging mode so Selenium can attach to you
 -Follow the instructions to name your bot and get a bot token (something like 123456789:ABCxyz...).
 -Search for your bot like @YOUR_BOT_NAME on Telegram.
 -Send a Hi or /Start to interact and wait for the bot to respond back
--Now hit the URL -> https://api.telegram.org/bot{Enter_Your_Bot_Token_Here(Remove curly braces)}/getUpdates
+-Now hit the URL -> https://api.telegram.org/bot{Enter_Your_Bot_Token_Here(Remove_curly_braces)}/getUpdates
 -Now you will see some JSON response which contains your chat_id like below, if not try making the telegram bot respond first
         "chat": {
           "id": ---------,
